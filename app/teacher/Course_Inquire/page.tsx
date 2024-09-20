@@ -64,7 +64,7 @@ export default function App() {
                     Cname: "计算机组成原理",
                     Credit: "4",
                     Ctno: "10001",
-                    Ctime: "10001",
+                    CRtime: "10001",
                     Tname: "张三",
                 },
                 {
@@ -72,7 +72,7 @@ export default function App() {
                     Cname: "操作系统",
                     Credit: "4",
                     Ctno: "10002",
-                    Ctime: "10002",
+                    CRtime: "10002",
                     Tname: "李四",
                 },
                 {
@@ -80,7 +80,7 @@ export default function App() {
                     Cname: "数据结构",
                     Credit: "4",
                     Ctno: "10003",
-                    Ctime: "10003",
+                    CRtime: "10003",
                     Tname: "王五",
                 },
                 {
@@ -88,7 +88,7 @@ export default function App() {
                     Cname: "计算机网络",
                     Credit: "4",
                     Ctno: "10004",
-                    Ctime: "10004",
+                    CRtime: "10004",
                     Tname: "赵六",
                 },
                 {
@@ -96,7 +96,7 @@ export default function App() {
                     Cname: "数据库系统",
                     Credit: "4",
                     Ctno: "10005",
-                    Ctime: "10005",
+                    CRtime: "10005",
                     Tname: "孙七",
                 },
             ]);
