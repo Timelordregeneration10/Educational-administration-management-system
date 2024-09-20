@@ -20,7 +20,7 @@ interface CourseType {
     Cname: string;
     Credit: string;
     Ctno: string;
-    Ctime: string;
+    CRtime: string;
     Tname: string;
 }
 
