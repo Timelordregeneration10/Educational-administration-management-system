@@ -109,7 +109,7 @@ export default function App() {
                         Credit: credit,
                         Ctno: ctno,
                         Tname: tname,
-                        Ctime: ctime,
+                        CRtime: ctime,
                     }
                 })
                     .then((res) => {
