@@ -24,11 +24,11 @@ const mainLayout = ({ children }: { children: React.ReactNode }) => {
     const userInfo = useUserInfo();
 
     const navItems: Array<{ name: string; href: string; }> = [
-        { name: "学分完成情况", href: '/student/Scredit_Inquire' },
-        { name: "课程信息查询", href: '/student/Course_Inquire' },
-        { name: "项目申报与查询", href: '/student/Project_Inquire' },
-        { name: "教室使用查询", href: '/student/ClassRoom_Inquire' },
-        { name: "会议室预约", href: '/student/MeetingRoom_Inquire' },
+        { name: "学分完成情况", href: '/Educational-administration-management-system/student/Scredit_Inquire' },
+        { name: "课程信息查询", href: '/Educational-administration-management-system/student/Course_Inquire' },
+        { name: "项目申报与查询", href: '/Educational-administration-management-system/student/Project_Inquire' },
+        { name: "教室使用查询", href: '/Educational-administration-management-system/student/ClassRoom_Inquire' },
+        { name: "会议室预约", href: '/Educational-administration-management-system/student/MeetingRoom_Inquire' },
     ];
 
     const { isOpen, onOpen, onOpenChange } = useDisclosure();

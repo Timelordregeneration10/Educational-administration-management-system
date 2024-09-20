@@ -24,9 +24,9 @@ const mainLayout = ({ children }: { children: React.ReactNode }) => {
     const userInfo = useUserInfo();
 
     const navItems: Array<{ name: string; href: string; }> = [
-        { name: "学生信息查询", href: '/admin/Student_Inquire' },
-        { name: "教师信息查询", href: '/admin/Teacher_Inquire' },
-        { name: "会议室管理", href: '/admin/MeetingRoom_Inquire' },
+        { name: "学生信息查询", href: '/Educational-administration-management-system/admin/Student_Inquire' },
+        { name: "教师信息查询", href: '/Educational-administration-management-system/admin/Teacher_Inquire' },
+        { name: "会议室管理", href: '/Educational-administration-management-system/admin/MeetingRoom_Inquire' },
     ];
 
     const { isOpen, onOpen, onOpenChange } = useDisclosure();

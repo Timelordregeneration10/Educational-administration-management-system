@@ -49,7 +49,7 @@ async function logoutClicked() {
     localStorage.removeItem("dbuserInfo");
     localStorage.removeItem("dbAuthorization");
   }
-  window.location.href = "/";
+  window.location.href = "/Educational-administration-management-system";
 }
 
 export { logoutClicked, signInClicked };
