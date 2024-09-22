@@ -27,6 +27,9 @@ const columns = [
 ];
 
 export default function App() {
+  useEffect(()=>{
+    alert("当前为测试环境，仅作展示，未连接后端！");
+  },[]);
   const userInfo = useUserInfo();
 
   const [credits, setCredits] = useState<Array<ScreditType>>([]);
